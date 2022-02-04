@@ -1,0 +1,31 @@
+.header-top {
+  position: relative;
+  background-color: #f7c151;
+  color: #000;
+  font-weight: 700;
+}
+
+.dis-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-logo {
+  border-radius: 100px;
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  align-self: center;
+}
+
+.link-navigate {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-navigate:hover {
+  transition: 0.5s;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}

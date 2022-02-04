@@ -1,0 +1,13 @@
+.card-avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-avatar img {
+    border-radius: 999px;
+}
+
+.card-avatar h1 {}
