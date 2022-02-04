@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2da28259.css",
+    "main.js": "/static/js/main.e968e3c3.js",
+    "static/media/bolo-3.jpg": "/static/media/bolo-3.d417b502bd180ee1ccf0.jpg",
+    "static/media/bolo-2.jpg": "/static/media/bolo-2.156f27e8a83bb8b50084.jpg",
+    "static/media/bolo-1.jpg": "/static/media/bolo-1.dfd17586c3b2cbc22cf5.jpg",
+    "static/media/logo.jpg": "/static/media/logo.891a69e1dbd3f5dfe701.jpg",
+    "static/media/nutela.jpg": "/static/media/nutela.3c2ac839d172ee3125f6.jpg",
+    "static/media/bolo-main.jpeg": "/static/media/bolo-main.8840c3f1ca2057fde9ce.jpeg",
+    "static/media/cremoso.jpg": "/static/media/cremoso.a00c343a961f9df3b671.jpg",
+    "index.html": "/index.html",
+    "main.2da28259.css.map": "/static/css/main.2da28259.css.map",
+    "main.e968e3c3.js.map": "/static/js/main.e968e3c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2da28259.css",
+    "static/js/main.e968e3c3.js"
+  ]
+}
