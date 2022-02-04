@@ -7,8 +7,6 @@ import Header from "ui/components/header/Header";
 
 import "./styles/App.css";
 
-import RequiredAuthPageToken from "auth.api";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -19,14 +17,7 @@ const App = () => {
           <Route element={<Header />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/contato" element={<ContatoPage />} />
-            <Route
-              path="/cardapio"
-              element={
-                <RequiredAuthPageToken nome={""}>
-                  <CardapioPage />
-                </RequiredAuthPageToken>
-              }
-            />
+            <Route path="/cardapio" element={<CardapioPage />} />
           </Route>
         </Routes>
       </Router>
