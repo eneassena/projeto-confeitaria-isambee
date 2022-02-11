@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         </aside>
         <aside>
           <span>
-            &copy; 2020 – 2022 Confeitaria Isambee, Todos direitos preservados.
+            &copy; 2020 – 2022 Confeitaria Isambee, Todos direitos reservados.
           </span>
         </aside>
       </footer>

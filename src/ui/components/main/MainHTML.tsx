@@ -9,7 +9,6 @@ const MainHTML = ({ children }: any) => {
     <>
       <main className={"body-main"}>
         {children}
-
         <section className={"footer-element"}>
           <Footer />
         </section>
