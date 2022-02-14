@@ -1,6 +1,5 @@
-import Navbar from "react-bootstrap/NavBar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
+import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 import logo from "ui/image/logo.jpg";
 import Image from "react-bootstrap/Image";
