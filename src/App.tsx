@@ -1,9 +1,6 @@
 import React from "react";
 
-import CardapioPage from "ui/pages/CardapioPage/Cardapio";
-import ContatoPage from "ui/pages/ContatoPage/Contato";
-import HomePage from "ui/pages/HomePage/Home";
-import Header from "ui/components/header/Header";
+import { NotFoundPage } from "ui/pages/NotFoundPage/NotFoundPage";
 
 import "./styles/App.css";
 
@@ -14,11 +11,7 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route element={<Header />}>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/contato" element={<ContatoPage />} />
-            <Route path="/cardapio" element={<CardapioPage />} />
-          </Route>
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Router>
     </>
