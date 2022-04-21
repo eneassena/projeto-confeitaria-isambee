@@ -1,17 +1,23 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { NotFoundPage } from "ui/pages/NotFoundPage/NotFoundPage";
+import Header from "ui/components/header/Header"
+import HomePage from "ui/pages/HomePage/Home";
+import ContatoPage from "ui/pages/ContatoPage/Contato";
+import CardapioPage from "ui/pages/CardapioPage/Cardapio";
 
 import "./styles/App.css";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-const App = () => {
+const App: React.FC = () => {
   return (
     <>
       <Router>
-        <Routes>
-          <Route path="*" element={<NotFoundPage />} />
+        <Routes>    
+          <Route element={<Header />}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/contato" element={<ContatoPage />} />
+            <Route path="/cardapio" element={<CardapioPage />} />
+          </Route>
         </Routes>
       </Router>
     </>

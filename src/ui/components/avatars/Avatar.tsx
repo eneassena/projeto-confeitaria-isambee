@@ -8,6 +8,11 @@ import bolo1 from "ui/image/nutela.jpg";
 import bolo2 from "ui/image/bolo-main.jpeg";
 import bolo3 from "ui/image/cremoso.jpg";
 
+// Bolo Caseiro
+// Bolo Decorado
+// Bolo Afetivo
+
+
 const Avatar = () => {
   return (
     <Container>
@@ -25,16 +30,15 @@ const Avatar = () => {
 
             <section>
               <h5 className="text-center mt-3 p-3">
-                Torta de Chocolate Inovação
+                Bolo Caseiro
               </h5>
               <p className="p-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Deleniti, fuga.
+                Variedade de sabores caseiro.
               </p>
             </section>
           </div>
         </Col>
-        <Col className="" md={4}>
+        <Col md={4}>
           <div className="card-avatar">
             <section
               style={{
@@ -45,7 +49,7 @@ const Avatar = () => {
               <img src={bolo2} alt="Avatar" height="100%" width="100%" />
             </section>
             <section>
-              <h5 className="text-center mt-3 p-3">Enéas Sena</h5>
+              <h5 className="text-center mt-3 p-3">Bolo Decorado</h5>
               <p className="p-2">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum,
                 numquam.
@@ -64,10 +68,9 @@ const Avatar = () => {
               <img src={bolo3} alt="Avatar" height="100%" width="100%" />
             </section>
             <section>
-              <h5 className="text-center mt-3 p-3">O prestigio</h5>
+              <h5 className="text-center mt-3 p-3">Bolo Afetivo</h5>
               <p className="p-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Corrupti, deserunt.
+                Esse bolo é indicado para pequenas comemorações.
               </p>
             </section>
           </div>

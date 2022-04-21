@@ -52,37 +52,37 @@ export const lista_cardapios = [
         id: 2,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 12.00'
     },
     {
         id: 3,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 10.00'
     },
     {
         id: 4,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 18.00'
     },
     {
         id: 5,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 5.00'
     },
     {
         id: 6,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 8.00'
     },
     {
         id: 7,
         img: images[geraNumberIndex()],
         title: 'Bolo 1',
-        valor: 'R$ 15.00'
+        valor: 'R$ 6.00'
     },
     {
         id: 8,
